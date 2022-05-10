@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/Sherry-tt/emaily#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "cookie-session": "^2.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
