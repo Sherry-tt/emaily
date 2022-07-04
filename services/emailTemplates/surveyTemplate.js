@@ -1,5 +1,4 @@
 const keys = require('../../config/keys');
-<a href="${keys.redirectDomain}/api/surveys/${survey.id}/yes">Yes</a> 
 
 module.exports = survey => {
   return `
